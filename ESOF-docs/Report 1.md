@@ -4,7 +4,7 @@ Regarding software process we will be going over how the different typical phase
 
 ### Project structure
 
-** is an open source software server developed by hundreds of contributors. It follows a time boxed release model. For the stable branch minor releases occur every month and major releases every 6 months. After these 6 months the stable branch will become a maintenance branch and the unstable branch will become the next stable branch.
+*GeoServer* is an open source software server developed by hundreds of contributors. It follows a time boxed release model. For the stable branch minor releases occur every month and major releases every 6 months. After these 6 months the stable branch will become a maintenance branch and the unstable branch will become the next stable branch.
 
 Most of the development is done on the unstable branch and is split into 2 phases: a 4 month open development period and 2 month hardening phase consisting of bug fixes and preparation for the next stable release.
 The *GeoServer* project uses JIRA as their issue/bug tracking system.
@@ -39,20 +39,21 @@ Because of its transparent development, which allows users to see how developmen
 
 
 ## Process Analysis
-Agile software development is based on 12 main principles which we’ll now compare to what we have observed from *GeoServer*’s development process:
-1. Customer satisfaction by early and continuous delivery of useful software:
+<p>Agile software development is based on 12 main principles which we’ll now compare to what we have observed from *GeoServer*’s development process:</p>
+
+1. **Customer satisfaction by early and continuous delivery of useful software**
 <p>*GeoServer* is setup so that every month there’s a minor release which allows them to deliver quick fixes and tweaks to their users very quickly</p>
 
-2. Welcome changing requirements, even late in development:
+2. **Welcome changing requirements, even late in development**
 <p>The project actively encourages user feedback and involvement at all stages.</p>
 3. Working software is delivered frequently (weeks rather than months)
 <p>Refer to point 1.</p>
-4. Close, daily cooperation between business people and developers
+4. **Close, daily cooperation between business people and developers**
 <p>This doesn’t really apply to *GeoServer* being a free and open source software. The community supporting the project, including the core developers end up doing whatever work there is on the business side of things so cooperation is a given.
 *GeoServer* is an open source and free software, but there are many companies that use it and also that provide paid support and training for its users. As any other users they can participate in the development and some core developers work in fact for some of these companies.</p>
 5. **Projects are built around motivated individuals, who should be trusted**
 <p>The work for *GeoServer* is done on a voluntary basis, so there is very low risk of having developers who are “just going through the motions”. If anything, by its nature, the project is too closely linked to specific individuals, which could be problematic if they lose motivation.</p>
-6. Face-to-face conversation is the best form of communication (co-location)
+6. **Face-to-face conversation is the best form of communication (co-location)**
 <p>The core team has biweekly skype meetings, but in presence communication is quite difficult again by the very nature of the project, which relies on people from all over the world to volunteer their time. The developers communicate mostly through e-mail. We did find that there was at least one development meeting among some of the developers in 2014.</p>
 7. **Working software is the principal measure of progress**
 <p>“The *GeoServer* Project recognizes that it is run those who are actually doing the work, and thus we want to avoid high overhead for ‘getting things done’.”
