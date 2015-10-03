@@ -6,6 +6,8 @@ Regarding software process we will be going over how the different typical phase
 
 *GeoServer* is an open source software server developed by hundreds of contributors. It follows a time boxed release model. For the stable branch minor releases occur every month and major releases every 6 months. After these 6 months the stable branch will become a maintenance branch and the unstable branch will become the next stable branch.
 
+![timeboxed](http://docs.geoserver.org/latest/en/developer/_images/timeboxed.png "Release schedule example")
+
 Most of the development is done on the unstable branch and is split into 2 phases: a 4 month open development period and 2 month hardening phase consisting of bug fixes and preparation for the next stable release.
 The *GeoServer* project uses JIRA as their issue/bug tracking system.
 In order to provide some control and leadership to the development of *GeoServer* the developers use what they call a “Project Steering Committee” (PSC). The PSC is responsible for determining the direction the project takes, what changes are made to the core code, what major features are added and it also has the decision on any change that may affect the *GeoServer* community.
@@ -16,8 +18,8 @@ In order to provide some control and leadership to the development of *GeoServer
 
 Changes to *GeoServer* can be proposed by anyone as what the developers call *GeoServer* Improvement Proposals (GSIP). These proposals are then reviewed, accepted or denied by the PSC. Anyone can participate in the discussions over proposals. There is an attempt to keep close contact between users(clients) and developers, which can be the same. The development is therefore heavily prototype based. Most non critical changes result from prototypes from independent user forks that lead to GSIPs when mature enough, and eventually to pull requests. Once approved a GSIP will get a JIRA tracking number. This is how requirements are handled. Users propose changes, the PSC votes on them and they are added to a backlog similar to how Scrum works. Accepted proposed changes can be added to the release currently under development or be deferred for later dependent on the time it'll take to implement them, and developer availability.
 
-<a href=
-https://github.com/geoserver/geoserver/wiki/GSIP-125---Layer-with-Service-Security>Example of a rejected GISP</a>
+
+[Example of a rejected GISP](https://github.com/geoserver/geoserver/wiki/GSIP-125---Layer-with-Service-Security)
 
 #### Design and implementation
 
@@ -56,15 +58,18 @@ Because of its transparent development, which allows users to see how developmen
 6. **Face-to-face conversation is the best form of communication (co-location)**
 <p>The core team has biweekly skype meetings, but in presence communication is quite difficult again by the very nature of the project, which relies on people from all over the world to volunteer their time. The developers communicate mostly through e-mail. We did find that there was at least one development meeting among some of the developers in 2014.</p>
 7. **Working software is the principal measure of progress**
-<p>“The *GeoServer* Project recognizes that it is run those who are actually doing the work, and thus we want to avoid high overhead for ‘getting things done’.”
-The quote above was taken from the *GeoServer* documentation. Since the work being done here is on a volunteer basis making working software the only measure of success.</p>
+
+ >“The *GeoServer* Project recognizes that it is run those who are actually doing the work, and thus we want to avoid high overhead for ‘getting things done’.”
+
+ <p>
+ The quote above was taken from the *GeoServer* documentation. Since the work being done here is on a volunteer basis making working software the only measure of success.</p>
 
 8. **Sustainable development, able to maintain a constant pace**
 <p>We have some doubts as to the team’s ability to maintain a constant pace due to the dependence on voluntary work, despite the main contributors seeming very motivated. There’s always the risk of more pressing issues disrupting the time they dedicate to the project before adequate replacements join the team. There is an effort towards a constant rhythm as evidenced by the release schedule and the fact that it has been adhered to strictly(for how long?)</p>
 9. **Continuous attention to technical excellence and good design**
 <p>The core team reviews the code and pull requests to ensure code quality is up to their standard, and through the PSC they also control the design and architecture.</p>
 10. **Simplicity—the art of maximizing the amount of work not done—is essential**
-?
+<p> TODO </p>
 11. **Self-organizing teams**
 <p>Most of *GeoServer*’s contributors, including the core developers, do their development work on self-organized teams (most work seems to be done individually) on their personal forks, working on features and changes that they themselves have proposed.</p>
 12. **Regular adaptation to changing circumstance**
