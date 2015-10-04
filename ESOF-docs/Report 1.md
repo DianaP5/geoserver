@@ -11,14 +11,11 @@ In the context of the subject ESOF we intend to analyze the software processes u
 
 Regarding software process we will be going over how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
 
-<<<<<<< HEAD
 ---
 =======
 ###Introduction
 GeoServer allows users to view and edit geospatial data. Geoserver can create maps in a variety of output formats. It also conforms to the Web Feature Service standard, wich permits the actual sharing and editing of the data that is used to generate the maps.
 GeoServer is also open source and his files are uploaded on Github.
-
->>>>>>> aa70295015b2be803a7808592bff811266922e82
 
 ### Project structure
 
