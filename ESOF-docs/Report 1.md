@@ -21,6 +21,8 @@ Changes to *GeoServer* can be proposed by anyone as what the developers call *Ge
 
 [Example of a rejected GISP](https://github.com/geoserver/geoserver/wiki/GSIP-125---Layer-with-Service-Security)
 
+The developers use JIRA issue tracker to keep tabs on these proposals.
+
 #### Design and implementation
 
 The project’s design is very collaborative and transparent to the userbase which can itself take part in the discussion. Even the core developers and PSC members have to go through GSIP process to make major changes.
@@ -30,13 +32,14 @@ A lot of the design discussions end up happening during the GSIP reviews and biw
 <a href=https://github.com/geoserver/geoserver/pull/1182>Example pull request with attached GSIP </a>
 
 The various developers assigned to different tasks will have a high degree of freedom in terms of how they implement their assignments but there is a code review phase, that may be skipped for trusted developers on code expected to have smaller impact on the project, during which a developer’s implementation can be brought in line with what the core developers and the PSC want. The *GeoServer* documentation provides extensive guidelines for any would be contributors and some tutorials on setting up to develop for *GeoServer*, although some of the documentation appears to be outdated.
+
 <a href= http://docs.geoserver.org/latest/en/developer/>Developer Manual</a>
 
 #### Validation
 There are many ways through which users can voice their opinions on the state of *GeoServer*, and they can, as has been mentioned, do it throughout the whole development process.
 
 #### Evolution
-Because of its transparent development, which allows users to see how development proceeds, the way any end user can suggest improvements, report bugs, request features and even become themselves developers *GeoServer* can very quickly respond to changes in user’s needs. The fact that anyone can access the source code and the branches for older releases also allows users for whom upgrading is impossible to adopt smaller changes and fixes.
+Because of its transparent development, which allows users to see how development proceeds, the way any end user can suggest improvements, report bugs, request features and even become themselves developers *GeoServer* can very quickly respond to changes in user’s needs. The fact that anyone can access the source code and the branches for older releases also allows users for whom upgrading is impossible to adopt smaller changes and fixes. Officially the core developers maintain each major version for 6 months after its initial release. The way it is setup it's very integrated with the design and implementation.
 
 
 
@@ -69,7 +72,7 @@ Because of its transparent development, which allows users to see how developmen
 9. **Continuous attention to technical excellence and good design**
 <p>The core team reviews the code and pull requests to ensure code quality is up to their standard, and through the PSC they also control the design and architecture.</p>
 10. **Simplicity—the art of maximizing the amount of work not done—is essential**
-<p> TODO </p>
+<p>Having external contributors who work on what they like and want may lead to work being repeated, but for the core development team, and if they follow the guidelines completely external contributors too, there will be enough communication to avoid these scenarios and schedule development to reuse code when possible.</p>
 11. **Self-organizing teams**
 <p>Most of *GeoServer*’s contributors, including the core developers, do their development work on self-organized teams (most work seems to be done individually) on their personal forks, working on features and changes that they themselves have proposed.</p>
 12. **Regular adaptation to changing circumstance**
