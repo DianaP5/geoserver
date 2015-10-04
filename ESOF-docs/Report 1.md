@@ -10,7 +10,14 @@ In the context of the subject ESOF we intend to analyze the software processes u
 
 Regarding software process we will be going over how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
 
+<<<<<<< HEAD
 ---
+=======
+###Introduction
+GeoServer allows users to view and edit geospatial data. Geoserver can create maps in a variety of output formats. It also conforms to the Web Feature Service standard, wich permits the actual sharing and editing of the data that is used to generate the maps.
+GeoServer is also open source and his files are uploaded on Github.
+
+>>>>>>> aa70295015b2be803a7808592bff811266922e82
 
 ### Project structure
 
@@ -22,6 +29,28 @@ Most of the development is done on the unstable branch and is split into 2 phase
 The *GeoServer* project uses JIRA as their issue/bug tracking system.
 
 In order to provide some control and leadership to the development of *GeoServer* the developers use what they call a “Project Steering Committee” (PSC). The PSC is responsible for determining the direction the project takes, what changes are made to the core code, what major features are added and it also has the decision on any change that may affect the *GeoServer* community.
+
+####Release Schedule
+
+The first feature based model releases occur when a certain number of key features have accumulated, which have been changed because it was too unpredictable. Starting with version 2.2 Geoserver releases follow a “time boxed model in which releases occur at regular predictable frequencies whit whatever fixes, improvements, and feature are available at the time of release”. To control changes in code right before a release, they have strict rules about what type of development is appropriate during specific periods of a branches life cycle.
+  
+####Release Branches
+
+Normally, GeoServer is undergoing with three main branches of development. The first one, “Stable branch” in which only bug fixing and smaller scale feature development occurs on. The second one, “unstable branch” in which more experimental and larger scale feature development occurs. And the last one, “maintenance branch” was the previously stable branch that is nearing end of life and sees only the most stable development, typically mostly bug fixes.
+
+####Release cycle
+
+The time of the release candidate is the same as the origin of a new stable branch. Every month, on the same day, we have a new release. The release is meant to improve functionality and stability and it will happen regardless of what bugs reports, unless project steering committee says no. 
+Ensure satisfaction
+As an open source project that depends on contributors, GeorServer takes several risks on schedules and new versions so, to avoid some risks, GeoServer has “Project Steering Committee” to assure quality in their releases, as said before.
+The committee has an odd number of individuals (to facilitate the voting process and help prevent ties). However, the voting system can still be tie so, there’s an appointed Chair, whose sole responsibility is to break ties.
+But the PSC is only needed for some changes, there’s no hard policy to code review such that every line of code needs to be reviewed:
+<p>1. If the change is to a core module and the developer does not have core commit access it requires review</p>
+<p>2. If the change is non-trivial and to a core module, it should be reviewed</p>
+<p>3. If the change is local to a module the developer maintains it usually does not require a review</p>	
+
+
+
 
 ### Development process
 
