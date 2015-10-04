@@ -1,6 +1,6 @@
 ### Abstract
-In the context of the subject ESOF we intend to analyze the software processes used by the team developing *GeoServer*, as well as the project management strategies(TODO:?) they use.
-Regarding software process we will be going over how the different typical phases of most process models are/were(TODO:?) handled by the developers followed by an analysis of which models best fit what they have been doing.
+In the context of the subject ESOF we intend to analyze the software processes used by the team developing *GeoServer*, as well as the project management strategies they use.
+Regarding software process we will be going over how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
 
 ### Project structure
 
