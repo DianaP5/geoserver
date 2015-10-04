@@ -12,7 +12,7 @@ In the context of the subject ESOF we intend to analyze the software processes u
 Regarding software process we will be going over how the different typical phases of most process models are/were handled by the developers followed by an analysis of which models best fit what they have been doing.
 
 ---
-=======
+
 ###Introduction
 GeoServer allows users to view and edit geospatial data. Geoserver can create maps in a variety of output formats. It also conforms to the Web Feature Service standard, wich permits the actual sharing and editing of the data that is used to generate the maps.
 GeoServer is also open source and his files are uploaded on Github.
@@ -48,7 +48,7 @@ But the PSC is only needed for some changes, there’s no hard policy to code re
 <p>3. If the change is local to a module the developer maintains it usually does not require a review</p>	
 
 
-
+---
 
 ### Development process
 
@@ -83,7 +83,7 @@ Because of its transparent development, which allows users to see how developmen
 
 Officially the core developers maintain each major version for 6 months after its initial release with bugfixes and occasionally back porting new features, which users can also request through GISPs.
 
-
+---
 
 ## Process Analysis
 
@@ -138,6 +138,8 @@ The agile software development manifesto is based on 12 main principles which we
 12. **Regular adaptation to changing circumstance**
 
  Refer to 1 and 2.
+
+---
 
 ## Conclusion
 
