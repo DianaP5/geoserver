@@ -27,7 +27,7 @@ integration with providers (protocls implementation)
 integ with external databses
 interface reqs
 layer handling(ll)
--check arcgis use cases
+-check qGis use cases
 -ver livros (principalmente n.º 1)
 
 
