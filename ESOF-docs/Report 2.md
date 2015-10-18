@@ -5,9 +5,8 @@
   1. [Context](#context)
   2. [Purpose and Scope](#purpose)
 2. [Overall Description and Use Cases](#description)    
-4. [Non-functional Requirements]("#othernonfunc")
+4. [Non-functional Requirements](#nonfunc)
  1. [WFS, WCS and WMS](#services)
-5. [Other Requirements]("#others")
 
 ### <a name="intro"></a> 1. Introduction
 
@@ -19,9 +18,11 @@ GeoServer is an open source java server that allows users to share, process and 
 
 This document intends to represent a high level view of GeoServer, through its features, interfaces and some non-functional requirements considered essential.
 
+####
+
 ### <a name="description"></a> 2. Overall Description and Use Cases
 
-This section presents an overview of the functionalities of GeoServer from various user's perspectives, _TODO:_ and is intended for end users and developers.
+This section presents an overview of the functionalities of GeoServer from various user's perspectives, and is intended for end users and developers.
 
 ![Service Management](img/exp_imp.png)
 
@@ -36,9 +37,9 @@ _Security management of the server_
 _Data management for the server_
 
 
-### <a name=services></a> 3. Non-functional Requirements
+### <a name="nonfunc"></a> 3. Non-functional Requirements
 
-#### <a name=services></a> 3.1 WFS, WCS and WMS
+#### <a name="services"></a> 3.1 WFS, WCS and WMS
 
 To allow sharing of data GeoServer implements the following widely used open standards for geospatial data:
 
@@ -48,4 +49,4 @@ To allow sharing of data GeoServer implements the following widely used open sta
 * [WCS](http://www.opengeospatial.org/standards/wcs) versions 1.0, 1.1 and 2.0. They work similarly to WFS but for raster data.
 
 * [WMS](http://www.opengeospatial.org/standards/wms) versions 1.1.1, the most used, and 1.3.0. WMS provides a standard for geospatial map image requests, allowing clients to combine multiple images.
- * GeoServer also provides KML as WMS output, allowing integration with for example, google earth.
+ * GeoServer also provides KML as a WMS output, allowing integration with for example, google earth.
