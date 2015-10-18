@@ -4,6 +4,7 @@
 
 * Jose Maria Lopes Monteiro Semedo
 * Luís Filipe Rodrigues Coelho
+
 ---
 ### Abstract
 In the context of the subject ESOF we intend to analyze the software processes used by the team developing *GeoServer*, as well as the project management strategies they use.
