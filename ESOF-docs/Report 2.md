@@ -22,6 +22,12 @@ This document intends to represent a high level view of GeoServer, through its f
 
 This section presents an overview of the functionalities of GeoServer from various user's perspectives, _TODO:_ and is intended for end users and developers.
 
+![Security Management](img/sec_mgmt.png)
+
+![Data Management](img/data_mgmt.png)
+
+
+
 Admin:
 web interface
 .authenticate
