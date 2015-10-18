@@ -4,10 +4,9 @@
 1. [Introduction](#intro)
   1. [Context](#context)
   2. [Purpose and Scope](#purpose)
-2. [Overall Description and Use Cases](#description)
-  1. [WFS, WCS and WMS](#services)  
-3. [External Interface Requirements]("#external")
-4. [Other Nonfunctional Requirements]("#othernonfunc")
+2. [Overall Description and Use Cases](#description)    
+4. [Non-functional Requirements]("#othernonfunc")
+ 1. [WFS, WCS and WMS](#services)
 5. [Other Requirements]("#others")
 
 ### <a name="intro"></a> 1. Introduction
@@ -37,7 +36,9 @@ _Security management of the server_
 _Data management for the server_
 
 
-#### <a href=services></a> 2.1 WFS, WCS and WMS
+### <a name=services></a> 3. Non-functional Requirements
+
+#### <a name=services></a> 3.1 WFS, WCS and WMS
 
 To allow sharing of data GeoServer implements the following widely used open standards for geospatial data:
 
