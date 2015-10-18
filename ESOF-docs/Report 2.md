@@ -1,12 +1,12 @@
 ## High Level Requirement Specification for GeoServer
 
 ### Table of Contents
-1. [Introduction]("#intro")
-2. [Overall Description]("#description")
-3. [External Interface Requirements]("#external")
-4. [System features or use cases]("#sysfeatures")
-5. [Other Nonfunctional Requirements]("#othernonfunc")
-6. [Other Requirements]("#others")
+1. [Introduction](#intro)
+2. [Overall Description](#description)
+3. [External Interface Requirements](#external)
+4. [System features or use cases](#sysfeatures)
+5. [Other Nonfunctional Requirements](#othernonfunc)
+6. [Other Requirements](#others)
 
 ### <a name="intro"></a> 1. Introduction
 
@@ -18,7 +18,7 @@ GeoServer is an open source java server that allows users to share, process and 
 
 This document intends to represent a high level view of GeoServer, through its features, interfaces and some non-functional requirements considered essential.
 
-### 2. Overall Description
+### <a name="description"></a> 2. Overall Description
 
 This section presents an overview of the functionalities of GeoServer from various user's perspectives, _TODO:_ and is intended for end users and developers.
 
