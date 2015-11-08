@@ -21,8 +21,6 @@
     4. [Web UI implementation](#web)
   3. [Process view](#process)
   4. [Deployment view](#deployment)
-4. [Non-functional Requirements](#nonfunc)
- 1. [WFS, WCS and WMS](#services)
 
 ## <a name="intro"></a> 1. Introduction
 
@@ -62,11 +60,11 @@ These are the classes that correspond to the overarching components represented 
 #### <a name="wcs"></a> WCS
 ![WCS core](img/logical_view/standards/wcs_detail.png)
 ##### <a name="wcs_1_0"></a> WCS 1.0
-![WCS core](img/logical_view/standards/wcs_1_0_detail.png)
+![WCS 1.0](img/logical_view/standards/wcs_1_0_detail.png)
 ##### <a name="wcs_1_1"></a> WCS 1.1
-![WCS core](img/logical_view/standards/wcs_1_1_detail.png)
+![WCS 1.1](img/logical_view/standards/wcs_1_1_detail.png)
 ##### <a name="wcs_2_0"></a> WCS 2.0
-![WCS core](img/logical_view/standards/wcs_2_0_detail.png)
+![WCS 2.0](img/logical_view/standards/wcs_2_0_detail.png)
 
 #### <a name="wfs"></a> WFS
 ![WFS core](img/logical_view/standards/wfs_detail.png)
@@ -78,6 +76,6 @@ These are the classes that correspond to the overarching components represented 
 ![web core](img/logical_view/web_detail.png)
 
 ## <a name="process"></a> 2.3. Process view
-![Activity diagram](img/implementation_view/process_view.jpg)
+![Activity diagram](img/implementation_view/process_view.JPG)
 
 ## <a name="deployment"></a> 2.4. Deployment view
