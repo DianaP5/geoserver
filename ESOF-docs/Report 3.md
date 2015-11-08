@@ -76,6 +76,7 @@ These are the classes that correspond to the overarching components represented 
 ![web core](img/logical_view/web_detail.png)
 
 ## <a name="process"></a> 2.3. Process view
-![Activity diagram](img/implementation_view/process_view.JPG)
+![Activity diagram](img/process_view/process_view.png)
 
 ## <a name="deployment"></a> 2.4. Deployment view
+![Deployment diagram](img/deployment_view/deployment_diagram.png)
