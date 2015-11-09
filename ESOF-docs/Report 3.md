@@ -46,30 +46,30 @@ These are the classes that correspond to the overarching components represented 
 
 ### <a name="security"></a> 2.2.2. Security implementation
 
-#### <a name="sec_core"></a> Security core classes
+#### <a name="sec_core"></a> 2.2.2.1. Security core classes
 ![Security core classes](img/logical_view/security/sec_core_detail.png)
-#### <a name="sec_auth"></a> Security authentication classes
+#### <a name="sec_auth"></a> 2.2.2.2. Security authentication classes
 ![Security authentication classes](img/logical_view/security/sec_auth_detail.png)
-#### <a name="sec_config"></a> Security configuration classes
+#### <a name="sec_config"></a> 2.2.2.3. Security configuration classes
 ![Security configuration classes](img/logical_view/security/sec_config_detail.png)
-#### <a name="sec_valid"></a> Security validation classes
+#### <a name="sec_valid"></a> 2.2.2.4. Security validation classes
 ![Security validation classes](img/logical_view/security/sec_valid_detail.png)
 
 ### <a name="std_core"></a> 2.2.3. Standards implementation
 
-#### <a name="wcs"></a> WCS
+#### <a name="wcs"></a> 2.2.3.1. WCS
 ![WCS core](img/logical_view/standards/wcs_detail.png)
-##### <a name="wcs_1_0"></a> WCS 1.0
+##### <a name="wcs_1_0"></a> 2.2.3.1.1. WCS 1.0
 ![WCS 1.0](img/logical_view/standards/wcs_1_0_detail.png)
-##### <a name="wcs_1_1"></a> WCS 1.1
+##### <a name="wcs_1_1"></a> 2.2.3.1.2. WCS 1.1
 ![WCS 1.1](img/logical_view/standards/wcs_1_1_detail.png)
-##### <a name="wcs_2_0"></a> WCS 2.0
+##### <a name="wcs_2_0"></a> 2.2.3.1.3. WCS 2.0
 ![WCS 2.0](img/logical_view/standards/wcs_2_0_detail.png)
 
-#### <a name="wfs"></a> WFS
+#### <a name="wfs"></a> 2.2.3.2. WFS
 ![WFS core](img/logical_view/standards/wfs_detail.png)
 
-#### <a name="wms"></a> WMS
+#### <a name="wms"></a> 2.2.3.3. WMS
 ![WMS core](img/logical_view/standards/wms_detail.png)
 
 ### <a name="web"></a> 2.2.4. Web UI implementation
