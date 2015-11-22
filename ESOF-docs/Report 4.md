@@ -1,4 +1,18 @@
-## Introdução
+## Índice
+1. [Introdução](#inro)
+2. [Testabilidade do software](#test)
+  1. [Grau de testabilidade](#grau)
+  1. [Isolabilidade](#isol)
+  1. [Controlabilidade](#control)
+  1. [Observabilidade](#observ)
+  1. [Separação de Funcionalidades](#separ)
+  1. [Inteligibilidade](#intel)
+  1. [Heterogeneidade](#heter)
+1. [Bug Report Resolvido](#bug)
+1. [Crítica](#critica)
+1. [Glossário](#gloss)
+
+## <a name="intro">Introdução
 
 O objetivo deste relatório é analisar os processos de verificação e validação (V & V) e ainda algumas características pertinentes ao tema. 
 O relatório estará dividido em 4 partes: 
@@ -7,18 +21,18 @@ O relatório estará dividido em 4 partes:
 *  Na terceira parte, haverá uma analise de um bug report resolvido; 
 *  Por fim, uma pequena critica sobre as técnicas utilizadas.
 
-## Testabilidade do software
+## <a name="test"></a>Testabilidade do software
 
 Nesta secção iremos falar sobre o grau de testabilidade ao analisar os processos de verificação e validação.
 
-#### Grau de testabilidade
+#### <a name="grau"></a>Grau de testabilidade
 
 Sendo o Geoserver um software de elevada complexidade é impossível testar método a método à procura de bugs, como tal existem 3 tipos de testes Unit, Integration/Mock, System, que serão aprofundados mais à frente. Os teste Unit como o próprio nome indica, testa cada método criado, no entanto nem sempre é possível fazê-lo, visto que há muitos módulos incorporados, como tal existem os "integration tests" utilizados para testar módulos com dependências de outros.  
 
-#### Isolabilidade 
+#### <a name="isol"></a>Isolabilidade 
 Uma grande dificuldade em programas complexos como este é tentar isolar cada componente para testar, de forma a que o teste não dependa do resultado de outra componente que não está a ser testada diretamente mas que influência o resultado. É para isso que serve os testes de integração/mock, isto é, funções que substituirão funções reais definidas em módulos dos quais essa unidade depende. Para tal existe uma framework chamada MockRunner e uma biblioteca EasyMock como será explicado logo à frente.
 
-#### Controlabilidade
+#### <a name="control"></a>Controlabilidade
 Como referido anteriormente, os testes mais importantes neste software são o Unit, Integration/Mock e System Tests. 
 Começando pelos testes unitários, o Geoserver utiliza uma ferramenta de testes automáticos chamada Jenkins. Esta ferramenta permite efetuar testes unitários em JUnit e  XMLUnit. Contém, também, uma página de estatísticas, que ilustra os resultados obtidos (ex: quantidade e cobertura dos testes). O testes são criados pelo desenvolvedor do software. Esta ferramenta oferece: 
 *  "Checkstyle - Confere o estilo do código para verificar se as mesmas convenções são usadas em todos os sítios"; 
@@ -37,7 +51,7 @@ No GeoServer este testes "extend" da class "org.geoserver.test.GeoServerSystemTe
 <p>3. Test execution </p>
 <p>4. System destruction </p>
 
-#### Observabilidade
+#### <a name="observ"></a>Observabilidade
 O GeoServer utiliza ferramentas de testes unitários e integração, assim como, de cariz dinâmico, ferramentas e bibliotecas para "System Tests". 
 Em relação aos testes, é usada uma ferramenta chamada Jenkins, através da qual é possível efetuar testes unitários em JUnit. Assim é possível acompanhar as estatísticas de cada tentativa de pull  request. 
 Como já dito anteriormente as ferramentas usadas no Geoserver são: 
@@ -58,16 +72,16 @@ Current version: 2.5.2 </p>
 No entanto, é importante ainda salientar, a classe de testes que o GeoServer possui, como explicado anterior.
 
 
-#### Separação de Funcionalidades 
+#### <a name="separ"></a>Separação de Funcionalidades 
 Ao analisarmos o GeoServer é possível observar que cada funcionalidade está organizada corretamente no módulo correspondente. Cada um dos módulos principais possui um conjunto de tarefas da qual é responsável. Outra coisa importante verificada, é que cada módulo tem uma pasta dedicada a testes, sejam eles teste unitários ou "system tests". 
 De um nível mais geral, o GeoServer ainda possui 3 versões, com estrutura exatamente igual. A atual, utilizada pelo consumidor, a próxima a ser lançada (e que está em fase de testes) e a que está a começar a ser desenvolvida, como foi explicito em relatórios anteriores.
 
-#### Inteligibilidade
+#### <a name="intel"></a>Inteligibilidade
 O GeoServer tem na sua composição uma pasta chamada doc. Esta pasta contém fontes de guiões para o utilizador e desenvolvedor, visto que é possível ao utilizador "programar" as suas funcionalidades. No entanto, torna-se um pouco complicado para qualquer desenvolvedor iniciar-se no GeoServer, visto que apenas funções simples estão bem comentadas, grandes módulos nota-se a falta de documentação, que normalmente é um link para uma documentação bastante redundante e exaustiva. O GeoServer usa o JIRA para listar os problemas. Nova documentação é tratada como parte do código, para que quem queira submeter algo (patches etc) possa usar um pull request ou afixar um problema com o JIRA juntamente com conteúdo sobre o problema. 
 
 
 
-#### Heterogeneidade  
+#### <a name="heter"></a>Heterogeneidade  
 
 O GeoServer é um projeto com grande heterogeneidade, visto que usa várias tecnologias externas para executar. Algumas dessas bibliotecas que achamos pertinentes serão aqui identificadas:  
  
@@ -80,14 +94,12 @@ __Web Feature Service__
 __GeoWebCache__ 
 <p>GeoWebCache is a Java web application used to cache map tiles coming from a variety of sources such as OGC Web Map Service (WMS).</p> 
 
+## <a name="bug"></a>Bug Report Resolvido
 
-## Estatísticas de Teste
+Exemplo de um bug detectado em por um utilizador: [jira issue 6529 ](#https://osgeo-org.atlassian.net/browse/GEOS-6529)
 
-Basta ir à pagina do Jenkins do Geoserver e ver os  testes unitários....
-
-## Bug Report Resolvido
-
-Um pequeno exemplo com informação sobre o problema, resolução e pull request do mesmo....
+O pull request com a resolução do problema:
+[github pull request](#https://github.com/geoserver/geoserver/pull/606)
 
 
 ## Critica
