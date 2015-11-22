@@ -25,6 +25,7 @@ Começando pelos testes unitários, o Geoserver utiliza uma ferramenta de testes
 *  "FindBugs - Procura fragmentos de código cuja estrutura possa induzir a bugs ou outros erros"; 
 *  "Open Tasks - Procura comentários com "TODO" no código para listar a quantidade de tarefas por fazer"; 
 *  "Code Coverage - Quantidade de linhas de código cobertas pelos testes". 
+
 Este teste é particularmente importante, visto que os testes unitários são realizados sobre métodos, é uma mais valia para o Geoserver, visto que este é programado numa linguagem orientada por objetos,  permitindo assim um maior controlo sobre o que está a ser testado.  
 O segundo tipo de testes mencionado, são os testes de integração, que fazem uso de ferramentas como MockRunner(framework) e EasyMock(library). Estes testes são utilizados quando uma componente necessita de interagir com outra para operar. No Geoserver estes testes  simulam dependências entre as componentes ao cria-las diretamente ou através da biblioteca "Easy Mock". 
 
