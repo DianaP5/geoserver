@@ -96,10 +96,10 @@ __GeoWebCache__
 
 ## <a name="bug"></a>Bug Report Resolvido
 
-Exemplo de um bug detectado em por um utilizador: [jira issue 6529 ](#https://osgeo-org.atlassian.net/browse/GEOS-6529)
+Exemplo de um bug detectado em por um utilizador: [jira issue 6529](https://osgeo-org.atlassian.net/browse/GEOS-6529)
 
 O pull request com a resolução do problema:
-[github pull request](#https://github.com/geoserver/geoserver/pull/606)
+[github pull request](https://github.com/geoserver/geoserver/pull/606)
 
 
 ## Critica
