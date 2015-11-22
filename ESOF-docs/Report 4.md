@@ -9,7 +9,6 @@
   1. [Inteligibilidade](#intel)
   1. [Heterogeneidade](#heter)
 1. [Bug Report Resolvido](#bug)
-1. [Crítica](#critica)
 1. [Glossário](#gloss)
 
 ## <a name="intro">Introdução
@@ -100,60 +99,6 @@ Exemplo de um bug detectado em por um utilizador: [jira issue 6529](https://osge
 
 O pull request com a resolução do problema:
 [github pull request](https://github.com/geoserver/geoserver/pull/606)
-
-
-## Critica
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 ## <a name="gloss"></a>Glossário
 
