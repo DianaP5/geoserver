@@ -157,14 +157,20 @@ O pull request com a resolução do problema:
 
 ## <a name="gloss"></a>Glossário
 
+__JUnit__:
 
-JUnit:
-•	 JUnit framework is the primary test library used in GeoServer. The current version used is Junit 4.11. While it is possible to continue to write JUnit 3.x style tests with JUnit 4, new tests should be written in the JUnit4 style with annotations.
-XMLUnit:
+• JUnit framework is the primary test library used in GeoServer. The current version used is Junit 4.11. While it is possible to continue to write JUnit 3.x style tests with JUnit 4, new tests should be written in the JUnit4 style with annotations.
+
+__XMLUnit__:
+
 •	The XMLUnit library provides a convenient way to make test assertions about the structure of XML documents. Since many components and services in GeoServer output XML, XMLUnit is a very useful library.
-MockRunner
+
+__MockRunner__:
+
 The MockRunner framework provides a set of classes that implement the various interfaces of the J2EE and Java Servlet apis. It is typically used to create HttpServletRequest , HttpServletResponse, etc... objects for testing servlet based components.
 Current version: 0.3.6
-EasyMock
+
+__EasyMock__:
+
 The EasyMock library is a mocking framework that is used to simulate various objects without actually creating a real version of them. This is an extremely useful tool when developing unit tests for a component A, that requires component B when component B may not be so easy to create from scratch.
 Current version: 2.5.2
