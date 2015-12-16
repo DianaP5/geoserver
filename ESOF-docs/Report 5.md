@@ -11,7 +11,7 @@
 
 ### <a name="intro"></a> 1. Introduction
 
-This report will be looking at a requested feature for Geoserver, analysing the impact he implementation of this new feature will have on the project, the components that would be affected and the tests that would have to be changed and/or added due to the new feature.
+This report will be looking at a requested feature for Geoserver, analysing the impact the implementation of this new feature will have on the project, the components that would be affected and the tests that would have to be changed and/or added due to the new feature.
 
 ### <a name="select"></a> 2. Feature selection
 
@@ -38,7 +38,7 @@ The bulk of the change to the code would be done on package _main.org.geoserver.
 * __LayerGroupEntryPanel.java__
 
   Here we would add a third parameter to the LayerGroupEntryPanel constructor, representing the workspace we want to be restricted to.
-A new variable of type TODO would be added to hold the workspace.
+A new variable of would be added to hold the workspace.
 The "add layer" and "add layer group" pop windows are added on this file from lines 106 to 123 and from lines 129 to 145 respectively. The content that will fill the choice lists is read at line 112 for layers:
 > popupWindow.setContent( new LayerListPanel(popupWindow.getContentId())
 
